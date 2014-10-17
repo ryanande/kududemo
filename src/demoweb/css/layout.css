@@ -414,7 +414,7 @@ label{
 	font-size:14px;	
 	color:#fff;
 }
-input[type=text]{
+input[type=text], input[type=email]{
 	width:100%;
 	background:none;
 	height:45px;
@@ -446,7 +446,7 @@ textarea{width:100%;
 	margin-bottom:20px;
 	overflow:auto;
 }
-input[type=text],textarea{
+input[type=text],input[type=email],textarea{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -471,7 +471,7 @@ input[type=text],textarea{
 }
 .submit-button:hover{
 }
-input[type=text].required, textarea.required{
+input[type=text].required, input[type=email].required, textarea.required{
 	border:1px solid #fff;
 }
 #form-sent{ 
