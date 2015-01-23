@@ -52,7 +52,7 @@ $(document).ready(function () {
     /* ==============================================
        Countdown
     =============================================== */
-    var launchDay = new Date(2015, 1, 31);
+    var launchDay = new Date(2015, 0, 26);
     $('#timer').countdown({
         until: launchDay
     });
